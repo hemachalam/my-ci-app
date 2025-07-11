@@ -24,7 +24,7 @@ jobs:
     - name: npm update
       run: npm update  
     - name: docker install
-      run: sudo apt install docker.io -y
+      run: sudo apt install docker -y
 
     - name: Run tests
       run: npm test
