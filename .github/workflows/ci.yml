@@ -19,6 +19,10 @@ jobs:
         node-version: '18'
     - name: install npm
       run: sudo apt install npm -y && npm cache clean --force
+    - name: npm command
+      run: npm install
+    - name: npm update
+      run: npm update  
    
 
   test:
